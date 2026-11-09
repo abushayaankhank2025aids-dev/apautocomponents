@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: { default: `${siteConfig.name} | CNC Machining & Automotive Components, Chennai`, template: `%s | ${siteConfig.name}` },
   description: siteConfig.description,
   openGraph: { siteName: siteConfig.name, type: "website", locale: "en_IN" },
+  verification: { google: "d-adTRor6TO_isfMcloR2sBMID10BxkRqARVGHESEOQ" },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
