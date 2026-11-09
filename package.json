@@ -1,0 +1,9 @@
+{
+  "name": "ap-auto-components-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ap-auto run dev",
+    "build": "npm --prefix ap-auto run build",
+    "typecheck": "npm --prefix ap-auto run typecheck"
+  }
+}

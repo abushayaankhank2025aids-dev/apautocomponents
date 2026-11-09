@@ -1,0 +1,4 @@
+[build]
+  base = "ap-auto"
+  command = "npm run build:netlify"
+  publish = "out"
