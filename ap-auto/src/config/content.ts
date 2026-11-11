@@ -8,6 +8,7 @@ export const services: Service[] = [
 export const publishedServices = services.filter((s) => s.confirmed);
 export const navLinks = [
   { href: "/about", label: "About Us" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/products", label: "Products" },
   { href: "/industries", label: "Industries" },
   { href: "/infrastructure", label: "Infrastructure" },
@@ -15,8 +16,8 @@ export const navLinks = [
   { href: "/contact", label: "Contact" },
 ];
 export const whyChooseUs = [
-  { title: "Family-business roots", text: "A manufacturing business that began as a family enterprise." },
-  { title: "Manufacturing focus", text: "A manufacturer in Padi, Chennai, working on components for industry." },
+  { title: "Automotive manufacturing focus", text: "Automotive components and machining services from Padi, Chennai." },
+  { title: "A clear manufacturing process", text: "Discuss your drawings, samples and component requirements directly with our team." },
   { title: "Built around your requirement", text: "Share your drawing or sample and discuss the job directly with our team." },
   { title: "CNC turning and machining", text: "Job work services for turned and machined components." },
 ];

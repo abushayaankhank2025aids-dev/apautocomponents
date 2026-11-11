@@ -7,7 +7,7 @@ const nextCli = path.join(projectRoot, "node_modules", "next", "dist", "bin", "n
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   || process.env.URL
   || process.env.DEPLOY_PRIME_URL
-  || "http://localhost:3000";
+  || "https://apautocomponents.netlify.app";
 const result = spawnSync(process.execPath, [nextCli, "build"], {
   cwd: projectRoot,
   env: {

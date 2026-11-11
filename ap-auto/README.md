@@ -30,6 +30,8 @@ Upload the generated `ap-auto/out/` directory to Netlify Drop. This directory co
 
 The GitHub Pages workflow remains separate: it sets `NEXT_PUBLIC_BASE_PATH` for the repository site and runs `npm run build`. Do not use the Netlify build command for GitHub Pages project-site deployments.
 
+If no deployment URL is available during a manual build, canonical links and the sitemap default to the live site URL, `https://apautocomponents.netlify.app`.
+
 ## Enquiry and contact forms
 
 The forms validate the entered fields in the browser and open a pre-filled message in the visitor's default email application. The visitor must review the draft and send it themselves. The website does not submit or store form details.

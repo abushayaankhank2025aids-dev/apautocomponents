@@ -5,6 +5,7 @@ import { ProductShowcase, InfrastructureBand, QualityBand, IndustriesBand } from
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { CinematicIntro } from "@/components/sections/CinematicIntro";
+import { GallerySection } from "@/components/sections/GallerySection";
 export default function Home() {
-  return (<><CinematicIntro /><Hero /><Intro /><ServiceCards /><ProductShowcase /><QualityBand /><IndustriesBand /><InfrastructureBand /><WhyChooseUs /><CtaBand /></>);
+  return (<><CinematicIntro /><Hero /><Intro /><ServiceCards /><ProductShowcase /><QualityBand /><IndustriesBand /><InfrastructureBand /><GallerySection showBrowseLink /><WhyChooseUs /><CtaBand /></>);
 }

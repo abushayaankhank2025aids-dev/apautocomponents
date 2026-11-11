@@ -5,7 +5,7 @@ import { products } from "@/config/products";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = ["", "/about", "/services", "/products", "/infrastructure", "/quality", "/industries", "/contact", "/request-quote",
+  const paths = ["", "/about", "/services", "/products", "/infrastructure", "/quality", "/industries", "/contact", "/request-quote", "/privacy-policy", "/terms",
     ...publishedServices.map((s) => `/services/${s.slug}`), ...products.map((p) => `/products/${p.slug}`)];
   return paths.map((p) => ({ url: `${siteConfig.url}${p}`, lastModified: new Date() }));
 }
